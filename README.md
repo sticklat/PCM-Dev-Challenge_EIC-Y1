@@ -1,4 +1,4 @@
-# 1. What is PCM?
+# 1. What is PCM??
 The Propulsion, Controls and Modelling (PCM) sub-team develops the software that serves as the "brain" of the vehicle's custom propulsion system, replacing and extending the functionality of the stock vehicle controller. This software enables seamless integration between the original GM vehicle systems and team-added components such as electric drive units, power control hardware, and user interfaces. To design and validate these systems, the team creates detailed physical models in MATLAB Simulink, which are used to evaluate architectures, refine control strategies, and optimize performance before implementation. The resulting control software is deployed to a real-time Speedgoat target (This is a low-powered computer running a Real-Time Operating System) and undergoes a rigorous testing process, including model-in-the-loop (MIL) and hardware-in-the-loop (HIL) validation, to ensure reliability and safety. The team also performs tuning and calibration activities to deliver robust, efficient, and responsive vehicle operation.
 
 # 2. Introduction
