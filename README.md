@@ -66,7 +66,7 @@ Below is the specification of the controller you need to design, this is where t
 #### 4.1.1.2. Advanced System Specification
 - Target vehicle acceleration performance is 0-60 mph in less than 12 seconds.
 - The controller should prioritize operating the engine near its peak efficiency whenever doing so does not conflict with safety or drivability objectives.
-- The driver's throttle command may only be modified by the transmission for at most 1s (i.e. during a shift to help match the rpm of the engine to the rpm of the transmission).
+- **When shifting between forward gears** the driver's throttle command may only be modified by the transmission **controller** for at most 1s (i.e. during a shift to help match the rpm of the engine to the rpm of the transmission).
 
 **Note: Third/fourth-year students are expected to attempt to optimize one of the listed specifications, but teams can try to optimize as many as they would like.**
 
